@@ -1,0 +1,26 @@
+name: Run Telegram Bot
+
+on:
+  schedule:
+    - cron: "* * * * *" # Runs every minute
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install node-telegram-bot-api axios
+
+      - name: Run bot
+        run: node bot.js
+        env:
+          TELEGRAM_BOT_TOKEN: "8105384872:AAFkzkmFzX5RXGGyq6m_sjs6Ug0vp--Ct8s"
