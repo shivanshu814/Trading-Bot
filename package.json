@@ -1,16 +1,22 @@
 {
-  "name": "telegram-bot",
+  "name": "crypto-price-alert-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A Telegram bot that monitors cryptocurrency prices and sends alerts",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
+  "keywords": [
+    "telegram",
+    "bot",
+    "crypto",
+    "cryptocurrency",
+    "price-alerts"
+  ],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^1.9.0",
-    "node-telegram-bot-api": "^0.66.0"
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.7"
   }
 }
