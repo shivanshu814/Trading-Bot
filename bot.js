@@ -7,6 +7,13 @@ const bot = new TelegramBot(token, { polling: true });
 const watchlist = {
   popcat: "popcat",
   bonk: "bonk",
+  btc: "bitcoin",
+  eth: "ethereum",
+  sol: "solana",
+  doge: "dogecoin",
+  shib: "shiba-inu",
+  xrp: "ripple",
+  luna: "terra-luna",
 };
 
 let userSubscriptions = {};
