@@ -2,7 +2,7 @@
 
 A Telegram bot that monitors cryptocurrency prices and sends alerts when they reach your specified profit or loss targets.
 
-## Features ✨
+## Features
 
 - Monitor multiple cryptocurrencies simultaneously
 - Set custom profit and loss targets
@@ -33,7 +33,7 @@ A Telegram bot that monitors cryptocurrency prices and sends alerts when they re
 - `/setloss <token> <percentage>` - Set custom loss target
   - Example: `/setloss btc 5`
 
-## Setup 🚀
+## Setup
 
 1. Clone the repository:
 
@@ -80,14 +80,14 @@ The bot is configured to run automatically using GitHub Actions. The workflow:
 - axios
 - CoinGecko API
 
-## Contributing 🤝
+## Contributing
 
 Feel free to submit issues and enhancement requests!
 
-## License 📄
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Support 💬
+## Support
 
 If you have any questions or need help, feel free to open an issue!
